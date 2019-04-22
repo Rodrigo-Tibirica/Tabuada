@@ -1,0 +1,19 @@
+package Desafio;
+import java.util.Scanner;
+public class Tabuada {
+	
+	public static void main(String[] args) {
+		Scanner pegar = new Scanner(System.in);
+		
+		double i, x = 1;
+		
+		System.out.println("informe seu numero");
+	    i = pegar.nextInt();
+	    for(;x <= 10; x++) {
+	    System.out.println( i + "*" + x +  "=" + (i*x) );
+	    }
+		
+		
+	}
+
+}
